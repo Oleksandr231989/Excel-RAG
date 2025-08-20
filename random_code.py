@@ -1,6 +1,8 @@
 import random
 import string
+import pandas as pd
 
+#dsffsdv
 def generate_random_string(length=8):
     """Generate a random string of specified length"""
     return ''.join(random.choices(string.ascii_letters + string.digits, k=length))
